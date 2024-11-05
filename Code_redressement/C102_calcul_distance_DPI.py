@@ -10,7 +10,7 @@ def calculate_pixel_distance(p1, p2):
 def calculate_real_distance(p1, p2, resolution):
     pixel_distance = calculate_pixel_distance(p1, p2)
     real_distance = pixel_distance / resolution
-    real_distance = real_distance * 2.807
+    real_distance = real_distance * 2.54
     return real_distance
 
 # Charger l'image
